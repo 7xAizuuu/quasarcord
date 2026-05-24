@@ -21,9 +21,24 @@ namespace QuasarCordInstaller
         [STAThread]
         static void Main()
         {
+            Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
+            Application.ThreadException += (s, e) => {
+                var crashLog = Path.Combine(Path.GetTempPath(), "quasarcord_crash.txt");
+                File.WriteAllText(crashLog, e.Exception.ToString());
+                MessageBox.Show(e.Exception.ToString(), "QuasarCord - Erreur détaillée", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            };
+            AppDomain.CurrentDomain.UnhandledException += (s, e) => {
+                var crashLog = Path.Combine(Path.GetTempPath(), "quasarcord_crash.txt");
+                File.WriteAllText(crashLog, e.ExceptionObject?.ToString() ?? "unknown");
+            };
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LauncherForm());
+            try { Application.Run(new LauncherForm()); }
+            catch (Exception ex) {
+                var crashLog = Path.Combine(Path.GetTempPath(), "quasarcord_crash.txt");
+                File.WriteAllText(crashLog, ex.ToString());
+                MessageBox.Show(ex.ToString(), "QuasarCord - Erreur démarrage", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 
@@ -69,7 +84,11 @@ namespace QuasarCordInstaller
 
         private async void InitializeWebView()
         {
+            try
+            {
             var userDataFolder = Path.Combine(Path.GetTempPath(), "QuasarCordInstaller_WebView2");
+            // Nettoyer le dossier si corrompu
+            try { if (Directory.Exists(userDataFolder)) Directory.Delete(userDataFolder, true); } catch { }
             var env = await CoreWebView2Environment.CreateAsync(null, userDataFolder);
             await _webView.EnsureCoreWebView2Async(env);
 
@@ -128,6 +147,17 @@ namespace QuasarCordInstaller
                 } catch { }
 
                 _webView.NavigateToString(html);
+            }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                    $"Impossible d'initialiser l'interface (WebView2):\n\n{ex.Message}\n\nAssure-toi que Microsoft Edge est installé et à jour.",
+                    "QuasarCord - Erreur de démarrage",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
+                Application.Exit();
             }
         }
     }

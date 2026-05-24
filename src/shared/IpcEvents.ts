@@ -16,7 +16,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-export const enum IpcEvents {
+// Using regular enum (not const enum) so esbuild can resolve values at runtime
+export enum IpcEvents {
     INIT_FILE_WATCHERS = "VencordInitFileWatchers",
     QUICK_CSS_UPDATE = "VencordQuickCssUpdate",
     OPEN_QUICKCSS = "VencordOpenQuickCss",
@@ -57,4 +58,24 @@ export const enum IpcEvents {
     TRAY_CHECK_UPDATES = "VencordTrayCheckUpdates",
     TRAY_ABOUT = "VencordTrayAbout",
     SUPPORTS_WINDOWS_MATERIAL = "VencordSupportsWindowsMaterial",
+
+    // QuasarCord-specific events
+    GET_DESKTOP_SOURCES = "QuasarCordGetDesktopSources",
+    GLOBAL_KEY_DOWN = "QuasarCordGlobalKeyDown",
+    RELAUNCH_APP = "QuasarCordRelaunchApp",
+    SET_THUMBAR_BUTTONS = "QuasarCordSetThumbarButtons",
+    THUMBAR_BUTTON_CLICK = "QuasarCordThumbarButtonClick",
+    SET_WINDOW_BACKGROUND_MATERIAL = "QuasarCordSetWindowBackgroundMaterial",
+    KEYBOARD_SOUNDS_START_GLOBAL = "QuasarCordKeyboardSoundsStartGlobal",
+    KEYBOARD_SOUNDS_STOP_GLOBAL = "QuasarCordKeyboardSoundsStopGlobal",
+    CHECK_VB_CABLE = "QuasarCordCheckVbCable",
+    INSTALL_VB_CABLE = "QuasarCordInstallVbCable",
+    QUASARCORD_DOWNLOAD_AND_RUN = "QuasarCordDownloadAndRun",
+    WORLD_BOMB_TYPE = "QuasarCordWorldBombType",
+    WORLD_BOMB_PRESS_ENTER = "QuasarCordWorldBombPressEnter",
+    WORLD_BOMB_PRESS_BACKSPACE = "QuasarCordWorldBombPressBackspace",
+    WORLD_BOMB_CLICK = "QuasarCordWorldBombClick",
+    WORLD_BOMB_SEQUENCE = "QuasarCordWorldBombSequence",
+    WORLD_BOMB_GET_CURSOR_POS = "QuasarCordWorldBombGetCursorPos",
+    WORLD_BOMB_OPEN_WINDOW = "QuasarCordWorldBombOpenWindow",
 }
