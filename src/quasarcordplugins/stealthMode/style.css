@@ -1,0 +1,16 @@
+﻿/* Stealth Mode - hide QuasarCord plugin UI (but NOT settings access) */
+
+/* Plugin buttons: header bar, channel toolbar, chat bar, user area */
+body.quasarcord-stealth .vc-header-bar-btns,
+body.quasarcord-stealth .vc-channel-toolbar-btns,
+body.quasarcord-stealth .vc-chat-bar-btns,
+body.quasarcord-stealth .vc-user-area-btns,
+
+/* Titlebar injected elements */
+body.quasarcord-stealth #quasarcord-titlebar-btn,
+body.quasarcord-stealth #quasarcord-titlebar-link-style,
+
+/* QuasarCordAI nav button */
+body.quasarcord-stealth .nai-nav-item {
+    display: none !important;
+}
