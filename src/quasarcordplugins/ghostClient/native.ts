@@ -1,4 +1,4 @@
-﻿/*
+/*
  * GhostClient native.ts — main process Electron
  * Lance ghost-server via node.exe bundlé dans quasarcord-dist
  * Communication via HTTP localhost:47821

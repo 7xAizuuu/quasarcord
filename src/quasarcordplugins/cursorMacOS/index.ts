@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord – CursorMacOS plugin
  * Replaces Windows SYSTEM cursors with authentic macOS .cur/.ani files.
  * Default Windows cursors are restored when the plugin is disabled.

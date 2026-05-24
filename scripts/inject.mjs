@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — Local injector for Discord Desktop
  * Injecte QuasarCord dans une installation Discord existante en :
  * 1. Trouvant le répertoire resources de Discord

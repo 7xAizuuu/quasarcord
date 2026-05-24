@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord – DMBomb plugin
  * Sends a message to ALL server members or a specific role via DM.
  * Right click on server icon -> "DM Bomb"

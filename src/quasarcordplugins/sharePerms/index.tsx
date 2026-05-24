@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord – SharePerms
  * Advanced permission sharing with interactive UI and multiple users support.
  */

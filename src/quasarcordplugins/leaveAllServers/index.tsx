@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — LeaveAllServers plugin
  * Accessible via right-click on a server → "Leave All Servers"
  */

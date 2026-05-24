@@ -1,4 +1,4 @@
-﻿// QuasarCord entry point
+// QuasarCord entry point
 "use strict";
 const path = require("path");
 const Module = require("module");

@@ -1,4 +1,4 @@
-﻿// QuasarCord preload — globalPaths fix + Equicord avec contextBridge
+// QuasarCord preload — globalPaths fix + Equicord avec contextBridge
 "use strict";
 (function () {
     const Module = require("module");

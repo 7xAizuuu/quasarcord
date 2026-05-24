@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — AntiDeleteMessage
  * Automatically resends your messages if someone deletes them.
  * Cache is persisted in IndexedDB — survives restarts.

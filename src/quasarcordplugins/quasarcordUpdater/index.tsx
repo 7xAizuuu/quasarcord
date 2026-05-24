@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — Auto-updater plugin
  * Au lancement : vérifie GitHub, affiche une bannière verte si version distante > locale.
  * Clic "Mettre à jour" : télécharge le Setup.exe via IPC main → le lance automatiquement.

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord – DoubleCall plugin
  * Rejoins deux canaux vocaux simultanément avec ton propre account.
  * Recopié depuis le build fonctionnel (compiled output).

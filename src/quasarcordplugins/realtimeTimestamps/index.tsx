@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord, a Discord client mod
  * Copyright (c) 2025 QuasarCord contributors
  * SPDX-License-Identifier: GPL-3.0-or-later

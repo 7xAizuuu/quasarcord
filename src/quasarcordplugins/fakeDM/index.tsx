@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — FakeDM plugin
  *
  * Fix position: uses getBoundingClientRect() on the real DOM button

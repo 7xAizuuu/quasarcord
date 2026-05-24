@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — NoNitroUpsell
  * Blocks Nitro upsell popups by intercepting Flux actions before they render.
  * Does NOT use MutationObserver or direct DOM removal to avoid React crashes.

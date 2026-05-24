@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — LiveWallpaper
  * Global wallpaper for the entire Discord interface (image, gif, video).
  * Works alongside ChannelWallpaper (which remains priority per channel).

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — SelfDestruct Plugin
  * Envoie des messages qui se suppriment automatiquement après un délai configurable.
  * Timer rouge visible uniquement par l'utilisateur.

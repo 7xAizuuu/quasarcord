@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — Installer via EquilotlCli
  * Télécharge EquilotlCli.exe depuis les releases Equicord et le lance
  * avec les variables d'environnement pointant vers les fichiers QuasarCord.

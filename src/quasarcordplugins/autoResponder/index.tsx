@@ -1,4 +1,4 @@
-﻿import definePlugin, { OptionType } from "@utils/types";
+import definePlugin, { OptionType } from "@utils/types";
 import { definePluginSettings } from "@api/Settings";
 import { UserStore, ChannelStore, RestAPI, FluxDispatcher, React } from "@webpack/common";
 import { DataStore } from "@api/index";

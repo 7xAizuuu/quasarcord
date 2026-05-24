@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — WorldBomb Assistant Plugin
  * Inspired by "cheat worldbomb" Python scripts.
  */

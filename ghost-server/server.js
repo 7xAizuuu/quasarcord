@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ghost-server.js — QuasarCord Ghost Client
  * Architecture "always-on" + optimisé performance :
  *   - Cache ffmpeg/device au démarrage (plus de execSync pendant l'audio)

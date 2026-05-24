@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — Composants utilitaires pour l'onglet Updater
  */
 

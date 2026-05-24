@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — AntiNickname
  * Automatically resets any nickname forcefully set on you by anyone.
  * Tries both possible endpoints to cover all cases.

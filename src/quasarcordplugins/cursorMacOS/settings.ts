@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord – CursorMacOS plugin settings
  */
 

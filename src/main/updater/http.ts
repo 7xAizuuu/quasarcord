@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — Auto-updater (HTTP / GitHub Releases via ASAR)
  * Vérifie les releases sur GitHub, télécharge le desktop.asar et remplace l'ancien.
  */

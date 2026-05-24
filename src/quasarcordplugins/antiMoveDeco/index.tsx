@@ -1,4 +1,4 @@
-﻿import definePlugin from "@utils/types";
+import definePlugin from "@utils/types";
 import { FluxDispatcher, React, UserStore } from "@webpack/common";
 import { UserAreaButton } from "@api/UserArea";
 import { findByProps, findByPropsLazy } from "@webpack";

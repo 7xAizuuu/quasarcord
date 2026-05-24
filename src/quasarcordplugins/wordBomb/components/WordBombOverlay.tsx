@@ -1,4 +1,4 @@
-﻿import { React, useState, useEffect, useRef, ReactDOM, createRoot, MessageActions, SelectedChannelStore, ComponentDispatch } from "@webpack/common";
+import { React, useState, useEffect, useRef, ReactDOM, createRoot, MessageActions, SelectedChannelStore, ComponentDispatch } from "@webpack/common";
 import { getGroqKey } from "../../quasarcordAI/groqManager";
 
 const DICT_URLS = [

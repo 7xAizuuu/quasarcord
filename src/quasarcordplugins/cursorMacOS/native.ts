@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord – CursorMacOS native module
  * Modifies Windows system cursors via registry + SystemParametersInfo
  * Runs in Electron main process (full Node.js)

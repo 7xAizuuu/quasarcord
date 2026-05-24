@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — Backpack Plugin
  * Allows organizing chat bar buttons in a "backpack"
  * to declutter the input area.

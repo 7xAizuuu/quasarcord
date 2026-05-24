@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord - StealthMode plugin
  * Cache tous les boutons de plugins (barre du haut, zone texte, zone utilisateur)
  * Toggle : Ctrl+Shift+H ou bouton dans QuasarCord Settings.

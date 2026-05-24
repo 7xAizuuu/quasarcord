@@ -1,4 +1,4 @@
-﻿import { Devs } from "@utils/constants";
+import { Devs } from "@utils/constants";
 import definePlugin from "@utils/types";
 
 export type TranslationMap = Record<string, { en: string; es: string; ru: string; zh: string; }>;

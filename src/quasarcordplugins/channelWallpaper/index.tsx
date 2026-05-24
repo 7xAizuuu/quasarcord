@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — ChannelWallpaper Plugin
  * Custom wallpaper per channel/DM (image, gif, looping video).
  * Right click on user/channel → Set/modify/delete wallpaper.

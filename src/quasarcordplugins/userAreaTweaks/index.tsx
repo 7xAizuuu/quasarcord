@@ -1,4 +1,4 @@
-﻿import definePlugin from "@utils/types";
+import definePlugin from "@utils/types";
 
 const CSS = `
 /* ──────────────────────────────────────────────────

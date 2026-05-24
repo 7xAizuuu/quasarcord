@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — Onglet Updater dans les Settings
  * Affiche la version actuelle, vérifie GitHub et permet de mettre à jour.
  */

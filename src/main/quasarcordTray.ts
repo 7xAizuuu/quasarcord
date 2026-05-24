@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — System Tray (injection mode)
  * Creates a QuasarCord system tray icon when injected into Discord Desktop.
  * Discord doesn't create a tray icon when injected — we create our own.

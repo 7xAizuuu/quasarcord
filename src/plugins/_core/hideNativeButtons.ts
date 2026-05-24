@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — Injection CSS globale pour masquer les boutons natifs Discord
  */
 

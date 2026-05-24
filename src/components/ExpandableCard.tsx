@@ -1,4 +1,4 @@
-﻿import { useState } from "@webpack/common";
+import { useState } from "@webpack/common";
 
 interface ExpandableSectionProps {
     children: React.ReactNode;

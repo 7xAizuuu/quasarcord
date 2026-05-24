@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — MultiInstance plugin
  *
  * Clic gauche sur un account :

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — Local un-injector for Discord Desktop
  * Annule l'injection en :
  * 1. Supprimant le dossier app/ créé par inject.mjs

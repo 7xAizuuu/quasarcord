@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord — MultiInstance native.ts
  *
  * Injection du token : méthode robuste via setPreloads de la session.

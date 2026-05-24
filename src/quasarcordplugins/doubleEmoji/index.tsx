@@ -1,4 +1,4 @@
-﻿import definePlugin from "@utils/types";
+import definePlugin from "@utils/types";
 
 let clickListener: (e: MouseEvent) => void;
 

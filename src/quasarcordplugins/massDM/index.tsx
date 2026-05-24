@@ -1,4 +1,4 @@
-﻿/*
+/*
  * QuasarCord – Mass DM plugin
  * Sends a message to all your friends with anti-rate-limit delay.
  * Top bar button + /massdm command.
