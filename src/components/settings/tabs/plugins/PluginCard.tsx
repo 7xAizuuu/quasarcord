@@ -13,7 +13,7 @@ import { Logger } from "@utils/Logger";
 import { OptionType, Plugin } from "@utils/types";
 import { openModal, ModalRoot, ModalHeader, ModalCloseButton, ModalContent, ModalSize } from "@utils/modal";
 import { React, showToast, Text, Toasts } from "@webpack/common";
-import { Settings } from "Vencord";
+import { Settings } from "@api/Settings";
 
 import { openPluginModal } from "./PluginModal";
 import { TUTORIAL_CACHE } from "./components/Common";
